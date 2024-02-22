@@ -23,5 +23,6 @@ const titleCased = () => tutorials.map(function (str) {
     return (word);
   })
   // combines separate words into one string 
-  return (word.toString().concat().replaceAll(',', ' '));
+  // return (word.toString().concat().replaceAll(',', ' '));
+  return (word.join(" "));
 })
